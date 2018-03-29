@@ -21,7 +21,7 @@ function deepestChild() {
   var found = false;
   while (found === false) {
     next_level = current_level.children
-    if (next_level.length == 0) {
+    if (next_level.length === 0) {
       deepest_level = current_level;
       found = true;
     }
